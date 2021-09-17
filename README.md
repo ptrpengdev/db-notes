@@ -17,6 +17,9 @@ OUTER JOIN
 Left Outer Join(A  B)
 Right Outer Join: ( A  B )
 Full Outer Join: ( A  B)
+
+![Image of Eq Relational Algebra] 
+(https://github.com/ptrpengdev/db-notes/blob/main/Screen%20Shot%202021-09-17%20at%203.00.25%20PM.png)
 ```
 
 
