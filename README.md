@@ -1,4 +1,4 @@
-# db-notes
+# Notes For DBMS
 
 Relational Algebra in DBMS: Operations Symbol. **Source** (https://www.guru99.com/relational-algebra-dbms.html#15)
 ```
@@ -18,9 +18,11 @@ Left Outer Join(A  B)
 Right Outer Join: ( A  B )
 Full Outer Join: ( A  B)
 
-![Image of Eq Relational Algebra] 
-(https://github.com/ptrpengdev/db-notes/blob/main/Screen%20Shot%202021-09-17%20at%203.00.25%20PM.png)
+
 ```
+Some equivalences for Relational Algebra
+
+<img src="Screen%20Shot%202021-09-17%20at%203.00.25%20PM.png" alt="eqra" width="400"/>
 
 
 ### Projection
@@ -29,7 +31,7 @@ remove column that aren't needed for further calculation.
 
 ### sharding
 ```
-  Against large database, part of relation can split up into shard. Original = Shard1 υ Shard2 υ Shard3
+Against large database. part of relation can split up into shard. Original = Shard1 υ Shard2 υ Shard3
 ```
 
 ### Theta Join: ⋈θ
