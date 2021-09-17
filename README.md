@@ -29,7 +29,7 @@ Some equivalences for Relational Algebra
 
 remove column that aren't needed for further calculation.
 
-### sharding
+### Sharding
 ```
 Against large database. part of relation can split up into shard. Original = Shard1 υ Shard2 υ Shard3
 ```
@@ -40,3 +40,26 @@ r(name, spent) and s(name, available)
 To determine people who not in debt, we might write
 r ⋈θ s where θ = (r.name = s.name and r.spent < s.available)
 ```
+
+### Functional Dependecies
+
+```
+Not mathematically determined. Determined by real world relationship between data elements. Thus, it's part of the requirement for solution od any database problem.
+```
+
+### Relation Key
+```
+K is a key for a relation R with attributes Y if:
+1. K -> Y
+2. No SUbset of K determines Y
+Database key and relation key are different. You can make anything a key to SQL table. Relation keys must be minimal.
+Key in relational algebra **IS NOT always practical** because it can overlap:
+Ex.  zipcode -> city, state, country
+     country, state -> city
+
+```
+### Superkey
+<img src="superkey.png" alt="eqra" width="400"/>
+<img src="superkey2.png" alt="eqra" width="400"/>
+
+
