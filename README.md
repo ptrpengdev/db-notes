@@ -22,7 +22,7 @@ Full Outer Join: ( A  B)
 ```
 Some equivalences for Relational Algebra
 
-<img src="Screen%20Shot%202021-09-17%20at%203.00.25%20PM.png" alt="eqra" width="400"/>
+<img src="/img/eq_relation_algebra.png" alt="eqra" width="400"/>
 
 
 ### Projection
@@ -59,7 +59,7 @@ Ex.  zipcode -> city, state, country
 
 ```
 ### Superkey
-<img src="superkey.png" alt="eqra" width="400"/>
-<img src="superkey2.png" alt="eqra" width="400"/>
+<img src="img/superkey.png" alt="eqra" width="400"/>
+<img src="img/superkey2.png" alt="eqra" width="400"/>
 
 
