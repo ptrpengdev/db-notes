@@ -62,4 +62,6 @@ Ex.  zipcode -> city, state, country
 <img src="img/superkey.png" alt="eqra" width="400"/>
 <img src="img/superkey2.png" alt="eqra" width="400"/>
 
+### Boyce-Codd Norm Form
+<img src="img/BCNF.png" alt="eqra" width="400"/>
 
