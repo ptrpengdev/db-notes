@@ -65,3 +65,6 @@ Ex.  zipcode -> city, state, country
 ### Boyce-Codd Norm Form
 <img src="img/bcnf.png" alt="eqra" width="500" height="300"/>
 
+### Third Norm Form
+<img src="img/thirdNormForm.png" alt="eqra" width="500" height="300"/>
+
