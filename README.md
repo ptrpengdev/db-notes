@@ -68,3 +68,10 @@ Ex.  zipcode -> city, state, country
 ### Third Norm Form
 <img src="img/thirdNormForm.png" alt="eqra" width="500" height="300"/>
 
+```
+We construct 3NF database byadding relations rather than splitting them.
+Benefit include: lossless join, dependecy preservation.
+```
+
+### MVDs: Multi Value Dependencies
+
